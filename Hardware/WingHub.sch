@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Electronic_Cats:CH559L U1
+L WingHub-rescue:CH559L-Electronic_Cats U1
 U 1 1 5EC584A6
 P 4925 5525
 F 0 "U1" H 4925 7390 50  0000 C CNN
@@ -171,12 +171,6 @@ F 3 "" H 2175 4140 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1700 4740
-Wire Wire Line
-	1775 6065 1775 6095
-Wire Wire Line
-	2075 5765 2165 5765
-Wire Wire Line
-	2075 5665 2160 5665
 Wire Wire Line
 	3775 4675 3705 4675
 Wire Wire Line
@@ -586,6 +580,18 @@ F 3 "" H 9255 865 50  0001 C CNN
 	1    9255 865 
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9255 865  9255 965 
+Wire Wire Line
+	9255 965  9605 965 
+Wire Wire Line
+	9255 1265 9255 1165
+Wire Wire Line
+	9255 1165 9605 1165
+Wire Notes Line
+	9055 2515 11205 2515
+Wire Notes Line
+	9055 465  9055 2515
 $Comp
 L power:GND #PWR0102
 U 1 1 5D3787E4
@@ -597,16 +603,4 @@ F 3 "" H 9255 1265 50  0001 C CNN
 	1    9255 1265
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9255 865  9255 965 
-Wire Wire Line
-	9255 965  9605 965 
-Wire Wire Line
-	9255 1265 9255 1165
-Wire Wire Line
-	9255 1165 9605 1165
-Wire Notes Line
-	9055 465  9055 2515
-Wire Notes Line
-	9055 2515 11205 2515
 $EndSCHEMATC

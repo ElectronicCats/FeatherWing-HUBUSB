@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name WingHub-rescue)(type Legacy)(uri ${KIPRJMOD}/WingHub-rescue.lib)(options "")(descr ""))
+)
