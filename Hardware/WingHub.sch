@@ -105,12 +105,7 @@ Wire Wire Line
 	850  4100 750  4100
 NoConn ~ 3150 3900
 NoConn ~ 3150 3600
-NoConn ~ 3150 3500
 NoConn ~ 750  3300
-NoConn ~ 750  3400
-NoConn ~ 750  3500
-NoConn ~ 750  3600
-NoConn ~ 750  3700
 NoConn ~ 750  3900
 NoConn ~ 750  4000
 NoConn ~ 750  4100
@@ -237,8 +232,6 @@ F 3 "~" H 5550 3950 50  0001 C CNN
 	1    5550 3950
 	-1   0    0    1   
 $EndComp
-Text Label 4750 2950 0    50   ~ 0
-RST
 Text Label 4750 4350 0    50   ~ 0
 TX
 Wire Wire Line
@@ -368,17 +361,12 @@ NoConn ~ 4750 3450
 NoConn ~ 4750 3550
 NoConn ~ 4750 3650
 NoConn ~ 4750 3750
-NoConn ~ 4750 3850
-NoConn ~ 4750 3950
-NoConn ~ 4750 4050
-NoConn ~ 4750 4150
 NoConn ~ 4750 4450
 NoConn ~ 6000 3350
 NoConn ~ 6000 3450
 NoConn ~ 6000 3650
 NoConn ~ 6000 3750
 NoConn ~ 6000 3850
-NoConn ~ 6000 3950
 NoConn ~ 6000 4050
 NoConn ~ 6000 4150
 NoConn ~ 6000 4250
@@ -433,4 +421,67 @@ Text Label 750  3000 2    50   ~ 0
 RX
 Text Label 750  3100 2    50   ~ 0
 TX
+NoConn ~ 4750 2950
+Text Label 750  3700 2    50   ~ 0
+SCK
+Text Label 750  3600 2    50   ~ 0
+MISO
+Text Label 750  3500 2    50   ~ 0
+MOSI
+Text Label 750  3400 2    50   ~ 0
+CS
+$Comp
+L Device:LED D1
+U 1 1 5ED2458B
+P 5250 1375
+F 0 "D1" H 5243 1592 50  0000 C CNN
+F 1 "LED" H 5243 1501 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5250 1375 50  0001 C CNN
+F 3 "~" H 5250 1375 50  0001 C CNN
+	1    5250 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5ED254AD
+P 4935 1375
+F 0 "R1" V 4739 1375 50  0000 C CNN
+F 1 "1K" V 4830 1375 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4935 1375 50  0001 C CNN
+F 3 "~" H 4935 1375 50  0001 C CNN
+	1    4935 1375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 1375 5035 1375
+Wire Wire Line
+	4835 1375 4770 1375
+Wire Wire Line
+	4770 1375 4770 1465
+Wire Wire Line
+	5400 1375 5490 1375
+Text Label 5490 1375 0    50   ~ 0
+LED
+$Comp
+L power:GND #PWR01
+U 1 1 5ED2B769
+P 4770 1465
+F 0 "#PWR01" H 4770 1215 50  0001 C CNN
+F 1 "GND" H 4775 1292 50  0000 C CNN
+F 2 "" H 4770 1465 50  0001 C CNN
+F 3 "" H 4770 1465 50  0001 C CNN
+	1    4770 1465
+	1    0    0    -1  
+$EndComp
+Text Label 3150 3500 0    50   ~ 0
+LED
+Text Label 4750 4150 0    50   ~ 0
+MISO
+Text Label 4750 4050 0    50   ~ 0
+MOSI
+Text Label 4750 3950 0    50   ~ 0
+SCK
+NoConn ~ 4750 3850
+Text Label 6000 3950 0    50   ~ 0
+CS
 $EndSCHEMATC
