@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.6-c6e7f7d~86~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5-0-10_14)")
 
   (general
     (thickness 1.6)
@@ -198,7 +198,7 @@
     (tags "SPST Tactile Switch")
     (path /5ED32146)
     (attr smd)
-    (fp_text reference SW2 (at 5.27 0.106 180) (layer F.SilkS)
+    (fp_text reference PROG (at 5.27 0.106 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DOWNLOADER (at 0 3.75) (layer F.Fab)
@@ -2290,7 +2290,7 @@
     (tags "SPST Tactile Switch")
     (path /5ED3C17B)
     (attr smd)
-    (fp_text reference SW1 (at 5.54 0.014 180) (layer F.SilkS)
+    (fp_text reference RESET (at 5.54 0.014 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RESET (at 0 3.75) (layer F.Fab)
