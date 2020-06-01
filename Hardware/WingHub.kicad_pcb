@@ -5,7 +5,7 @@
     (drawings 25)
     (tracks 182)
     (zones 0)
-    (modules 17)
+    (modules 19)
     (nets 42)
   )
 
@@ -2086,8 +2086,8 @@
       (net 6 "Net-(J3-Pad5)"))
     (pad 5 thru_hole circle (at 10.07 2.71 270) (size 3.5 3.5) (drill 2.3) (layers *.Cu *.Mask)
       (net 6 "Net-(J3-Pad5)"))
-    (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_A_CONNFLY_DS1095-WNR0.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/femaleThruHoleUSB.stp
+      (offset (xyz 3.5 -12.5 4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
