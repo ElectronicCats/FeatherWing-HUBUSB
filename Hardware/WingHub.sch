@@ -417,9 +417,9 @@ Wire Wire Line
 	3500 3150 3500 3250
 Wire Wire Line
 	3500 3550 3500 3750
-Text Label 750  3000 2    50   ~ 0
-RX
 Text Label 750  3100 2    50   ~ 0
+RX
+Text Label 750  3000 2    50   ~ 0
 TX
 NoConn ~ 4750 2950
 Text Label 750  3700 2    50   ~ 0
