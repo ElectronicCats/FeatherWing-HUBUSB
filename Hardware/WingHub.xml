@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/fabian/Electronic Cats/FeatherWing-HUBUSB/Hardware/WingHub.sch</source>
-    <date>Tue 02 Jun 2020 10:45:57 CDT</date>
+    <date>Wed 03 Jun 2020 18:26:57 CDT</date>
     <tool>Eeschema 5.1.6-c6e7f7d~86~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -23,6 +23,11 @@
       <value>CH559T</value>
       <footprint>Package_SO:SSOP-20_5.3x7.2mm_P0.65mm</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1808111011_WCH-Jiangsu-Qin-Heng-CH559T_C85215.pdf</datasheet>
+      <fields>
+        <field name="Mfr.Part #">CH559T</field>
+        <field name="Price">$1.1231</field>
+        <field name="Vendor">LSCS</field>
+      </fields>
       <libsource lib="WingHub-rescue" part="CH559T-Electronic_Cats" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ED980DE</tstamp>
@@ -31,6 +36,11 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.Part #">CL21F104ZBCNNNC</field>
+        <field name="Price">$0.0099</field>
+        <field name="Vendor">LSCS</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EE545AF</tstamp>
@@ -39,6 +49,11 @@
       <value>3.3uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.Part #">0805X335K250CT</field>
+        <field name="Price">$0.031592</field>
+        <field name="Vendor">LSCS</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EE6E3C1</tstamp>
@@ -47,6 +62,11 @@
       <value>DOWNLOADER</value>
       <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.Part #">TS5215A 250gf</field>
+        <field name="Price">$0.0148</field>
+        <field name="Vendor">LSCS</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ED32146</tstamp>
@@ -55,6 +75,11 @@
       <value>RESET</value>
       <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.Part #">TS5215A 250gf</field>
+        <field name="Price">$0.0148</field>
+        <field name="Vendor">LSCS</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ED3C17B</tstamp>
@@ -79,6 +104,11 @@
       <value>USB_A</value>
       <footprint>Connector_USB:USB_A_CONNFLY_DS1095-WNR0</footprint>
       <datasheet> ~</datasheet>
+      <fields>
+        <field name="Mfr.Part #">C42643</field>
+        <field name="Price">$0.0334</field>
+        <field name="Vendor">LCSC</field>
+      </fields>
       <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EC5E920</tstamp>
@@ -87,6 +117,11 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.Part #">D-R080508L3-KS2</field>
+        <field name="Price">$0.015256</field>
+        <field name="Vendor">LSCS</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ED2458B</tstamp>
@@ -95,6 +130,11 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.Part #">0805W8J0102T5E</field>
+        <field name="Price">$0.001866</field>
+        <field name="Vendor">LSCS</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ED254AD</tstamp>

@@ -1,0 +1,11 @@
+Reference, Value, Footprint, Datasheet, Mfr.Part #, Price, Vendor
+"U1","CH559T","Package_SO:SSOP-20_5.3x7.2mm_P0.65mm","https://datasheet.lcsc.com/szlcsc/1808111011_WCH-Jiangsu-Qin-Heng-CH559T_C85215.pdf","CH559T","$1.1231","LSCS"
+"C1","0.1uF","Capacitor_SMD:C_0805_2012Metric","~","CL21F104ZBCNNNC","$0.0099","LSCS"
+"C2","3.3uF","Capacitor_SMD:C_0805_2012Metric","~","0805X335K250CT","$0.031592","LSCS"
+"SW2","DOWNLOADER","Button_Switch_SMD:SW_SPST_TL3342","~","TS5215A 250gf","$0.0148","LSCS"
+"SW1","RESET","Button_Switch_SMD:SW_SPST_TL3342","~","TS5215A 250gf","$0.0148","LSCS"
+"J1","feather long","Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical","~"
+"J2","feather short","Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical","~"
+"J3","USB_A","Connector_USB:USB_A_CONNFLY_DS1095-WNR0"," ~","C42643","$0.0334","LCSC"
+"D1","LED","LED_SMD:LED_0805_2012Metric","~","D-R080508L3-KS2","$0.015256","LSCS"
+"R1","1K","Resistor_SMD:R_0805_2012Metric","~","0805W8J0102T5E","$0.001866","LSCS"
