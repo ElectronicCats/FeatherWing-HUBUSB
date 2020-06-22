@@ -1,4 +1,4 @@
-// Based in the work of Kali Prasad, visit this link for information: 
+// Based on the work of Kali Prasad, visit this link for information: 
 // https://kprasadvnsi.com/posts/bare-metal-ch559-pt1/
 
 #include <compiler.h>
